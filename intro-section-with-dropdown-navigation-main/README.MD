@@ -8,12 +8,14 @@
 
 ### ScreenShot
 
-![Desktop]()
-![Mobile](./design/mobile-design.jpg)
+![Desktop](https://github.com/shweta-dabhole/Frontend-Mentor-Challenges/blob/main/intro-section-with-dropdown-navigation-main/output/desktop%20view.png)
+https://github.com/shweta-dabhole/Frontend-Mentor-Challenges/blob/main/intro-section-with-dropdown-navigation-main/output/desktop%20dropdown%20menu%20view.png
+![Mobile](https://github.com/shweta-dabhole/Frontend-Mentor-Challenges/blob/main/intro-section-with-dropdown-navigation-main/output/mobile%20view.png)
+https://github.com/shweta-dabhole/Frontend-Mentor-Challenges/blob/main/intro-section-with-dropdown-navigation-main/output/mobile%20dropdown%20menu%20view.png
 
 ### Author
 
-- [Vinay-Parit](https://www.linkedin.com/in/vinay-parit/)
+- [Shweta-Dabhole](https://www.linkedin.com/in/shweta-dabhole/)
 
 
 ### Built with
