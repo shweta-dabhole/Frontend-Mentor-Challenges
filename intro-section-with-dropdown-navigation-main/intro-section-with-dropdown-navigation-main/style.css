@@ -185,6 +185,8 @@ footer {
   padding-top: 8rem;
 }
 
+/* ------------- Media Query for Mobile ----------------- */
+
 @media (max-width: 480px) {
   .nav,.btn-group{
     display:none; 
@@ -212,17 +214,22 @@ footer {
     height: 300px;
     width: 350px;
   }
+  .right{
+    margin-top: 1rem;
+  }
   .right img{
     display: none;
   }
   .remote{
     display: flex;
     flex-direction: column-reverse;
+    position:relative;
   }
-  .left{
-    position: relative;
-    bottom: 2rem; 
-  }
+  /* .left,.right{
+    position: fixed !important;
+    top: 22rem;
+  } */
+  
   .left h1{
     font-size: 2rem;
     text-align: center;
@@ -238,31 +245,38 @@ footer {
   .images{
     display: flex;
     gap: 2rem;
+    margin-top: -12rem;
   }
   .images img{
     height: 50px;
     width: 60px;
     position: relative;
     right: 2rem;
-    top: 2rem;
+    top: 17rem;
   }
   .box{
+    padding-left: 1.5rem;
     margin-left: 4.7rem;
     position: relative;
+    bottom: 5rem;
     z-index: 11;
-    display: block;
-     height: 100vh;
+    display: none;
+     height: 90vh;
     width: 80%;
-    background-color:#dada;
+    background-color:#ffff;
+  }
+  .box .close{
+    display: flex;
+    justify-self: end;
+    padding: 1rem 1rem;
   }
   .box li{
-    text-align:center;
     line-height: 2rem;
   }
   .box a{
     display: flex;
     flex-direction: column;
-    text-align: center;
+    /* text-align: center; */
     line-height: 2rem;
   }
   .btn-div{
@@ -273,7 +287,7 @@ footer {
     padding-top: 2rem;
   }
   .btn-div >button{
-  padding: 7px 30px;
+  padding: 7px 40px;
   border-radius: 10px;
   font-size: 14px;
   max-width: max-content;
@@ -288,18 +302,18 @@ footer {
   border: transparent;
   background-color: transparent;
 }
-.dropdown-1 {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
+.mob-div, .mob-div-2{
   display: none;
-  line-height: 2rem;
-  max-width: 160px;
-  height: 160px;
-  background-color: #fff;
-  border-radius: 10px;
-  margin-left: 9rem;
-  padding: 15px 15px;
 }
-  
+.mob-div a{
+  display: flex;
+  flex-direction: row;
+}
+.mob-div img{
+  margin-right: 1rem;
+  height: 22px;
+  width: 22px;
+  padding-top: 0.5rem;
+}
+
 }
