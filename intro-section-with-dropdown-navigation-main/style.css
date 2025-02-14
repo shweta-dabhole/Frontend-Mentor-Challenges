@@ -188,8 +188,7 @@ footer {
 /* ------------- Media Query for Mobile ----------------- */
 
 @media (max-width: 480px) {
-  
-  }
+  html,body{
   .nav,.btn-group{
     display:none; 
   }
