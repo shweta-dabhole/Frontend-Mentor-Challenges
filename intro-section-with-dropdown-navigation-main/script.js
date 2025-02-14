@@ -17,7 +17,7 @@ list1.addEventListener('mouseover',function(){
     list1.src ="./images/icon-arrow-up.svg"
 })
 list1.addEventListener("mouseout", function () {
-  dropdown.style.display = "none";
+  // dropdown.style.display = "none";
   list1.src = "./images/icon-arrow-down.svg";
 });
 list2.addEventListener("mouseover", function () {
@@ -25,7 +25,7 @@ list2.addEventListener("mouseover", function () {
   list2.src = "./images/icon-arrow-up.svg";
 });
 list2.addEventListener("mouseout", function () {
-  dropdown2.style.display = "none";
+  // dropdown2.style.display = "none";
     list2.src = "./images/icon-arrow-down.svg";
 });
 
