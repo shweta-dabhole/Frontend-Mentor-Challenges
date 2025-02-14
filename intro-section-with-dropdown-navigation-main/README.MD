@@ -4,7 +4,7 @@
 ### Links
 
 - Solution URL: [Github](https://github.com/shweta-dabhole/Frontend-Mentor-Challenges/tree/main/intro-section-with-dropdown-navigation-main)
-- Live Site URL: [Vercel Link](https://huddle-landing-page-three-ruby.vercel.app/)
+- Live Site URL: [Netlify Link](https://intro-dropdown-shweta-codesubtle.netlify.app/)
 
 ### ScreenShot
 
