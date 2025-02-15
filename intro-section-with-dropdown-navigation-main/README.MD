@@ -22,6 +22,8 @@
 
 - Semantic HTML5 markup
 - CSS custom properties
+- JavaScript DOM 
+- JavaScript Event Listners
 - Flexbox
 - Mobile-first workflow
 - [Code Subtle](https://www.linkedin.com/company/code-subtle/)
